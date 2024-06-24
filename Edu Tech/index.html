@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Welcome to Apex Institute</title>
+</head>
+<body>
+  <navbar>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Program</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#testimonial">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#why-apex">Why Apex?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Our Program Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Core Modules</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Coaching</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">F&Q</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="subnav">
+        <div class="logo">
+            <h1>Apex Institute</h1>
+        </div>
+        <ul class="flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#">Latest News</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#formregister" class=" secondary-button">Sign in</a></li>
+            <li><a href="#formregister" class=" primary-button" >Sign up</a></li>
+          </ul>
+    </div>
+  </navbar>
+  <header>
+    <!-- crausal-section -->
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/splash.jpg" class="d-block w-100" alt="..." height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="font-size: 2rem;">Education</h5>
+                  <p style="font-weight: 900; font-size: 1.2rem;">“Education is the most powerful tool you can use to transform the world.”</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/upsc.jpg" class="d-block w-100" alt="..." height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="font-size: 2rem;">Education</h5>
+                  <p  style="font-weight: 900; font-size: 1.2rem;">“Change is the end result of all true learning.”</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/library.jpg" class="d-block w-100" alt="..." height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="font-size: 2rem;">Education</h5>
+                  <p style="font-weight: 900; font-size: 1.2rem;">“The roots of education are bitter, but the fruit is sweet.”</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/img.avif" class="d-block w-100" alt="..." height="350px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="font-size: 2rem;">Education</h5>
+                  <p style="font-weight: 900; font-size: 1.2rem;">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>
+                </div>
+              </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <div class="container">
+        <section class="content">
+            <div class="leftbox">
+              <h1 class="heading">Start Your Civil Services Journey From Today</h1>
+              <p class="para">
+                "Embark on a journey of global learning and cultural fusion at Apex Institute. Are you ready to become a part of a vibrant community that thrives on the exchange of ideas from around the world? Take the first decisive step by submitting your application to Apex. Our dedicated enrollment advisors are poised to guide and assist you at every stage of the process. Explore the world of opportunities that await you at Apex Institute."
+              </p>
+              <p class="para2">“Arise, awake, and stop not till the goal is reached.”
+
+              </p>
+              <h3 class="heading2">Book Your Seat Immediately, Seats Are Limited</h3>
+              <div class="para3">
+                <p class="primary-button" style="display: inline; ">Apply Now</p>
+              </div>
+            </div>
+            <div class="formbox">
+              <div class="form" id="formregister">
+                <form action=""class="form-example">
+                  <h1>Let's Go</h1>
+                  <div class="form-example">
+                    <label for="name">First name: </label>
+                    <input type="text" name="name" id="name" required placeholder="First name" />
+                    <br>
+                    <br>
+                    <label for="name">Last name: </label>
+                    <input type="text" name="name" id="name" required  placeholder="Last name"/>
+                  </div>
+                  <div class="form-example">
+                    <br>
+                    <label for="number">Enter your contact number: </label>
+                    
+                    <input type="tel" name="number" id="number" required placeholder="phone number" />
+                  </div>
+                  <div class="form-example">
+                    <br>
+                    <label for="email">Enter your email: </label>
+                    
+                    <input type="email" name="email" id="email" required placeholder="E-mail"/>
+                  </div>
+                  <div class="form-example">
+                    <br>
+                    <label for="password">Enter your password: </label>
+                    
+                    <input type="password" name="password" id="password" required placeholder="password" />
+                  </div>
+                  <div class="form-example-subscribe">
+                    <br>
+                    <input type="submit" class="form-example-subscribe" value="Subscribe" placeholder="subscribe" />
+                  </div>
+                  <div class="form-example">
+                    <br>
+                    <input type="checkbox" name="" id="">
+                    Yes,I agree read all terms and conditions.
+                  </div>
+                  <div class="log-in">
+                    <br>
+                    <p>Already have an account?<a href="#">Log-in</a>
+  
+                    </p>
+                  </div>
+                  <div class="sign-in">
+                    <span class="primary-button">Sign in <i class="fa-solid fa-arrow-right"></i> </span>
+                  </div>
+                </form>        
+                </div>
+            </div>
+        
+</section>
+<section class="example-section">
+      <div class="example-box">
+          <h2 class="example-heading-text">One platform, endless possibilities
+          </h2>
+          <a class="secondary-button" href="#">See more examples <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+</section>
+<section class=".example-header" id="why-apex">
+  <h1 id="Services">Services</h1>
+  <div class="examples-area flex">
+    <a href="" class="example-card"><h3 class="card-text">Students can complete their task on software interface</h3>
+
+    </a>
+    <a href="" class="example-card"><h3 class="card-text">Students can access various practice set of papers online</h3>
+
+    </a>
+    <a href="" class="example-card"><h3 class="card-text">Students can their doubts in doubts session</h3>
+
+    </a>
+<a href="" class="example-card"><h3 class="card-text">One to one communication between students and mentors</h3>
+
+</a>
+
+</div>
+</section>
+<section>
+  <h1 id="about" style="text-align: center;">About us</h1>
+  <div id="about-us">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Welcome to Apex Institute: Pioneering Excellence in Education</h5>
+        <p class="card-text" style="color: black;">At Apex Institute, we believe in nurturing talent, shaping futures, and empowering individuals to achieve their fullest potential. Since our inception, we have been dedicated to providing unparalleled educational experiences that inspire growth, innovation, and success. With a commitment to excellence and a passion for education, Apex Institute stands as a beacon of knowledge and learning.</p>
+        
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h4 class="card-title">Our Journey:</h4>
+        <p class="card-text" style="color: black;">Founded with a vision to revolutionize education, Apex Institute embarked on a journey to create a transformative learning environment. Over the years, we have evolved into a dynamic institution that caters to a diverse range of educational needs. From academic brilliance to skill enhancement, we have consistently pushed the boundaries of education to prepare our students for a rapidly changing world.</p>
+        
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">State-of-the-Art Facilities:</h5>
+        <p class="card-text" style="color: black;">A conducive learning environment is essential for growth. That's why we have invested in state-of-the-art facilities that provide students with access to the latest resources and technologies. Our classrooms, labs, libraries, and recreational spaces are designed to inspire collaboration, innovation, and creativity Apex Institute is not just a place of learning; it's a community that fosters lifelong connections. We believe in the power of networking and collaboration,.</p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+    <h1>Contact Us</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required style="width:1000px ; height: 50px; border-radius: 5px;"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required style="width:1000px ; height: 50px;border-radius: 5px;"><br><br>
+        
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required style="width:1000px ;height: 50px;border-radius: 5px;"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required style="width:1000px ;height:100px;border-radius: 5px;"></textarea><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="date" id="age" name="age" required style="width:1000px; height: 50px;border-radius: 5px;"><br><br>
+        
+        <input type="submit" class="primary-button" value="Send">
+    </form>
+
+</section>
+<section >
+  <h1 id="about" style="text-align: center;">Latest News</h1>
+  <div id="latest-news">
+    <div class="card" style="width: 20rem;">
+      <img src="images/upsc news.avif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bharatiya Nyaya Sanhita 2023, India-Taiwan and Hawaii Wildfires
+        </h5>
+        <p class="card-text" style="color: black;">Exclusive for Subscribers from Monday to Friday: Have you ever thought about how Golden Crescent and Golden Triangle regions are relevant to the UPSC Exam? What significance do topics like the Indian Penal Code, Fertilizer Consumption in India, Retributive Justice and Restorative Justice have for both the preliminary and main exams? You can learn more by reading the Indian Express UPSC</p>
+        <a href="#" class="btn btn-primary">Go Subscribe</a>
+      </div>
+    </div>
+    <div class="card" style="width: 20rem;">
+      <img src="images/UPSC-bk.avif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">UPSC Essentials: Get Inspired — B K Singh, former forest officer on Veerappan's episode & more</h5>
+        <p class="card-text" style="color: black;">Recent Netflix documentary, 'The Hunt for Veerappan' brings to light the challenges of an Indian Forest Service officer among many other things. B K Singh who once faced Veerappan’s bullets shares key takeaways from Veerappan's episode, and more for Indian Forest Services aspirants.</p>
+        <a href="#" class="btn btn-primary">Go Subscribe</a>
+      </div>
+    </div>
+    <div class="card" style="width: 20rem;">
+      <img src="images/ssp2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">WB SSC Scam: CBI Registers Case Against Former President Of Bengal Primary Education Board, Others</h5>
+        <p class="card-text" style="color: black;">The Central Bureau of Investigation on Wednesday registered a case against Manik Bhattacharya, former president of West Bengal Board of Primary Education and other public servants over allegations of illegality in connection with the teacher recruitment scam in 2020-21, said the federal probe agency, as per an ANI report.</p>
+        <a href="#" class="btn btn-primary">Go Subscribe</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<section id="testimonial">
+    <h1 style="text-align: center; margin-top: 15px;">Testimonials</h1>
+    
+    <div class="testimonial">
+        <p>"Enrolling at Apex Institute was a game-changer for me. The dedicated faculty and comprehensive curriculum helped me excel academically. The personalized attention I received truly made a difference in my learning journey."</p>
+        <p class="testimonial-author">- Student, Abhishek Singh</p>
+    </div>
+    
+    <div class="testimonial">
+        <p>"As a parent, I'm delighted to see the transformation in my child after joining Apex Institute. It's not just about academics but also about character-building and skill enhancement. The institute's commitment to holistic development is commendable."</p>
+        <p class="testimonial-author">- Parent, mr. Vijay</p>
+    </div>
+    
+    <div class="testimonial">
+        <p>"Apex Institute provided me with not only a solid educational foundation but also essential life skills. The institute's network and career guidance were instrumental in securing a job in my dream company. I owe a big part of my success to this institution."</p>
+        <p class="testimonial-author">- Alumni,Lakshya</p>
+    </div>
+    <div class="testimonial">
+      <p>"Apex Institute is more than an educational institution; it's a community of growth. The networking opportunities and exposure to industry professionals have expanded my horizons."</p>
+      <p class="testimonial-author">- Alumni, Suryansh</p>
+    </div>
+
+</section>
+</header>
+<section>
+  <div class="subfooter">
+    <div class="policy">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookies</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+    <div class="media">
+      <h3>Contact with us</h3>
+     <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+     <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+     <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+     <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+  </div>
+</section>
+  <footer>
+    <p>&copy; 2023 Apex Institute. All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
