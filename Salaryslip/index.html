@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAY SLIP</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #container{
+            width: 90%;
+            margin: auto;
+        }
+        .navbar{
+            /* width: 100%; */
+            height: 120px;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+            color: #31a1a1;
+            font-size: 1.1rem;
+            font-weight: 900;
+    
+        }
+        .secondheading{
+            font-size: 1.8rem;
+
+        }
+        #info{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .employee{
+            width: 400px;
+            height: 40px;
+            background-color: #31a1a1;
+            color: white;
+            font-size: 1.2rem;
+            padding-top: 8px;
+        }
+    
+        .time{
+            display: flex;
+            flex-direction: row;
+            
+        
+            /* justify-content: space-between; */
+        }
+        .table2{
+            margin: 0px 5px;
+        }
+        span{
+           position:absolute;
+            margin-left: 810px;
+            margin-top: -20px;
+        }
+        .bigtable {
+            width: 100%;
+            border-collapse: collapse;
+            /* border-bottom: 1px solid black; */
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <nav class="navbar">
+        <div class="firstheading">
+   <h1>Company Name</h1>
+   <h4>12345 Court Road, London W 1T 1JY, UK</h4>
+   <p>Phone: +44 00 0000 0000 , Email:name@provider@gmail.com</p>
+        </div>
+        <div class="secondheading">
+       <h1>PAYSLIP</h1>
+        </div>
+    </nav>
+    <!-- <h4>12345 Court Road, London W 1T 1JY, UK</h4>
+   <p>Phone: +44 00 0000 0000 , Email:name@provider@gmail.com</p> -->
+   <div id="info">
+        <div class="newdiv">
+          <div class="employee">
+          <p>EMPLOYEE INFORMATION</p>
+        </div>
+        <h3>Full Name</h3>
+        <br>
+        <p>123 Any Court Road</p>
+        <br>
+        <p>London W 1T 1JY, UK</p>
+        <br>
+        <p>Phone: +44 00 0000 0000</p>
+        <br>
+        <p>Email:name@provider@gmail.com</p>
+        </div> 
+        <div class="time">
+           <div>
+            <table>
+                
+                    <thead>
+                        <th class="th1" >PAY DATE</th>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th id="date">10/06/2019</th>
+                        </tr>
+
+                        <tr>
+                            <th  class="td3">PAYROLL #</th>
+                        </tr>
+                        <tr>
+                            <th class="td4">123456</th>
+                        </tr>
+                    </tbody>
+                
+            </table>
+           </div>
+           <div class="table2">
+            <table >
+                <thead>
+                        <th class="th1">PAY TYPE</th>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th class="date2">Weekly</th>
+                        </tr>
+
+                        <tr>
+                            <th class="td3">NI NUMBER </th>
+                        </tr>
+                        <tr>
+                            <th class="td4">QQ123456C</th>
+                        </tr>
+                    </tbody>
+            </table>
+           </div>
+           <div>
+            <table >
+                <thead>
+                        <th class="th1">PERIOD</th>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th class="date2">WK23</th>
+                        </tr>
+
+                        <tr>
+                            <th class="td3">TAX CODE </th>
+                        </tr>
+                        <tr>
+                            <th class="td4">125OL</th>
+                        </tr>
+                    </tbody>
+            </table>
+           </div>
+           <p></p>
+        </div>
+        
+    </div>
+    <span>Payment Method: Check</span>
+    <div class="content">
+        <table  class="bigtable">
+            <thead>
+                <th class="slip">EARNING</th>
+                <th class="slip">HOURS</th>
+                <th class="slip">RATE</th>
+                <th class="slip current">CURRENT</th>
+                <th class="slip" id="lastslip2">YTD</th>
+            </thead>
+            <tbody>
+                <tr class="slip2">
+                <td>Standard Pay</td>
+                    <td>40</td>
+                    <td>1250</td>
+                    <td class="current">500.00</td>
+                    <td class="lastslip current">500.00</td>
+                </tr>
+                <tr class="slip2">
+                <td>Overtime Pay</td>
+                    <td>5</td>
+                    <td>18.75</td>
+                    <td class="current">93.75</td>
+                    <td class="lastslip current">93.75</td>
+                </tr>
+                <tr class="slip2">
+                <td>Holiday Pay</td>
+                    <td>8</td>
+                    <td>1250</td>
+                    <td class="current">100,00</td>
+                    <td class="lastslip current">100.00</td>
+                </tr>
+                <tr class="slip2">
+                <td>Basic Pay</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">1,740.00</td>
+                    <td class="lastslip current">1,740.00</td>
+                </tr>
+                <tr class="slip2">
+                    <td>Commission and Bonus</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">600.00</td>
+                    <td class="lastslip current">600.00</td>
+                </tr>
+                <tr class="slip2">
+                    <td >Sick Pay</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">-</td>
+                    <td class="lastslip current" >-</td>
+                </tr>
+                <tr class="slip2" >
+                    <td >Expenses</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">-</td>
+                    <td class="lastslip current">-</td>
+                </tr>
+                <tr class="slip2">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="current"></td>
+                    <td class="lastslip current">-</td>
+                </tr>
+                <tr>
+                    <td class="slip"></td>
+                <td class="slip"></td>
+                <td class="slip current"><h3>GROSS PAY</h3></th>
+                <td class="slip current"><h2>&#xa3 3,033.75</h2></td>
+                <td class="slip" id="lastslip2" style="color: white;">&#xa3 3,033.75</td>
+                </tr>
+            </tbody>
+    </div> 
+</table>
+    
+    </div>
+    <div class="content2">
+        <table  class="bigtable">
+            <thead>
+                <th class="slip">EARNING</th>
+                <th class="slip"></th>
+                <th class="slip"></th>
+                <th class="slip current">CURRENT</th>
+                <th class="slip" id="lastslip2">YTD</th>
+            </thead>
+            <tbody>
+                <tr class="slip2">
+                <td>PAYE Tax</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">250.00</td>
+                    <td class="lastslip current">250.00</td>
+                </tr>
+                <tr class="slip2">
+                <td>National Insurance</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">55.00</td>
+                    <td class="lastslip current">55.00</td>
+                </tr>
+                <tr class="slip2">
+                <td>Student Loan Repayment</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">30.00</td>
+                    <td class="lastslip current">30.00</td>
+                </tr>
+                <tr class="slip2">
+                <td>Pension</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">50.00</td>
+                    <td class="lastslip current">50.00</td>
+                </tr>
+                <tr class="slip2">
+                    <td>Union Fees</td>
+                    <td></td>
+                    <td></td>
+                    <td class="current">5.00</td>
+                    <td class="lastslip current">5.00</td>
+                </tr>
+               
+                <tr class="slip2" >
+                    <td ></td>
+                    <td></td>
+                    <td></td>
+                    <td class="current"></td>
+                    <td class="lastslip current">-</td>
+                </tr>
+                <tr class="slip2">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="current"></td>
+                    <td class="lastslip current">-</td>
+                </tr>
+                <tr>
+                    <td class="slip"></td>
+                <td class="slip"></td>
+                <td class="slip current"><h3>TOTAL DEDUCTIONS</h3></th>
+                <td class="slip current"><h2>&#xa3 390.00</h2></td>
+                <td class="slip" id="lastslip2" style="color: white;">&#xa3 390.00</td>
+                </tr>
+            </tbody>
+    </div>
+
+    </table>
+    <div class="content3">
+        <table  class="bigtable">
+            <thead>
+                <tr>
+                    
+                <td class="slip current"><h3>NET PAY</h3></th>
+                <td class="slip current"><h2>&#xa3 2,643.75</h2></td>
+                <td class="slip" id="lastslip2" style="color: white;">&#xa3 2,643.75</td>
+                </tr>
+        </thead>
+    </table>
+    </div>
+    
+    </div>
+    <div class="para">
+        <pre>If you have any question about this payslip please contact:
+           [Name, Phone, email@address.com]
+        </pre>
+         
+     </div>
+</body>
+</html>
