@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Assessment</title>
+</head>
+<body>
+  <header>
+    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+        <div class="position-sticky">
+          <div class="container mt-5">
+            <div class="circle-box">
+              <img src="./images/avtar.avif" class="img-fluid circle" alt="Circular Image">
+            </div>
+            <h4 class="dasher">Nowak Helme</h4>
+            <h4 class="head">Admin Head</h4>
+            <div class="ImageIcon">
+              <i class="fa-solid fa-gear"></i>
+              <i class="fa-solid fa-power-off"></i>    
+            </div>
+          </div>
+          <div class="list-group list-group-flush mx-3 mt-4 overflow-auto">
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple" aria-current="true">
+              <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Main dashboard</span>
+            </a>
+            <h6>APPS</h6>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+            class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+            class="fas fa-regular fa-comment fa-fw me-3"></i><span>Chat</span></a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas fa-solid fa-envelope fa-fw me-3"></i><span>Email</span></a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+            <i class="fas fa-solid fa-list-check fa-fw me-3"></i><span>Tasks</span>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas fa-building fa-fw me-3"></i><span>Projects</span></a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas  fa-regular fa-address-book fa-fw me-3"></i><span>Contacts</span></a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas fa-globe fa-fw me-3"></i><span>International</span></a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas fa-calendar fa-fw me-3"></i><span>Calendar</span></a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas fa-users fa-fw me-3"></i><span>Users</span></a>
+          <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+              class="fas fa-money-bill fa-fw me-3"></i><span>Sales</span></a>
+        </div>
+      </div>
+    </nav>
+  
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-purple fixed-top pt-14">
+  
+      <div class="container-fluid">
+     
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+          aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+  
+      
+        <a class="navbar-brand" href="#">
+          <img src="./images/dbm.jpg" height="35"  alt="Dashboard Logo" />
+        </a>
+
+        <form style="padding-left: 15rem;" class="d-none d-md-flex input-group w-auto my-auto">
+          <input autocomplete="off" type="search" class="form-control rounded"
+            placeholder="Search..." style="min-width: 225px;" />
+          <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+        </form> 
+  
+       
+        <ul class="navbar-nav ms-auto d-flex flex-row">
+    
+          <li class="nav-item dropdown">
+            <a class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+              role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <i style="color: white;" class="fas fa-bell"></i>
+              <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            </a>
+            <ul  class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#">Notification</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Earn</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Yearly Growth</a>
+              </li>
+            </ul>
+          </li>
+
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+              id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <img src="./images/avtar.avif" class="rounded-circle"
+                height="22" alt="Avatar" loading="lazy" />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#">My profile</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </li>
+        </ul> 
+        <i style ="color: white;" class="fa-solid fa-gear"></i>
+      </div>
+      
+
+      
+    </nav>
+
+  </header>
+    <div class="right-content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-2 collapse" id="sidebarContent">
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Calendar</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Chat</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Email</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Task</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Project</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Auth Pages</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="grid_dashboard">
+<div class="dash">
+    <div class="revenue">
+        <h5>Total Revenue</h5>
+        <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+   <div class="flexu">
+    <div class="progress-bar1">
+        
+    </div>
+    <div>
+<h4 style="color: white;">256</h4>
+<p style="color: rgb(225, 216, 216);">Revenue Today</p>
+
+    </div>
+   </div>
+</div>
+<div class="dash">
+    <div class="revenue">
+        <h5>Sales Analytics</h5>
+        <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+    <div class="flexu">
+        <div class="progress-bar2">
+            
+        </div>
+        <div>
+    <h4 style="color: white;">8441</h4>
+    <p style="color: rgb(225, 216, 216);">Revenue Today</p>
+    
+        </div>
+       </div>
+
+       <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    
+</div>
+<div class="dash">
+    <div class="revenue">
+        <h5>Statistics</h5>
+        <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+    <div class="flexu">
+        <div class="progress-bar3">
+            
+        </div>
+        <div>
+    <h4 style="color: white;">4569</h4>
+    <p style="color: rgb(225, 216, 216);">Revenue Today</p>
+    
+        </div>
+        
+       </div>
+    
+</div>
+<div class="dash">
+    <div class="revenue">
+        <h5>Daily Sales</h5>
+        <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+    <div class="flexu">
+        <div class="progress-bar4">
+            
+        </div>
+        <div>
+    <h4 style="color: white;">158</h4>
+    <p style="color: rgb(225, 216, 216);">Revenue Today</p>
+    
+        </div>
+       </div>
+       <div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 80%"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+    
+</div>
+
+      </div>
+      <div class="container" id="grid02">
+        <div class="row">
+       
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card">
+              <div class="revenue card-titles">
+        <h5>Daily Sales</h5>
+        <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+              <img src="./images/progress-bar.gif" class="card-img-top" alt="Image">
+            </div>
+          </div>
+        
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card">
+            <div class="revenue card-titles">
+        <h5>Statistics</h5>
+        <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+              <img src="./images/raise.png" class="card-img-top" alt="Image">
+            </div>
+          </div>
+          
+      
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card">
+              <h5<div class="revenue card-titles">
+        <h5>Total Revenue</h5>
+        <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+              <img src="./images/t.jpg" class="card-img-top" alt="Image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="client-box">
+              <img src="./images/cllient1.jpg" class="client-image" alt="Client 1">
+              <div>
+      
+                <p>Email: client1@example.com</p>
+                <p>Role: CEO</p>
+              </div>
+            </div>
+          </div>
+          
+  
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="client-box">
+              <img src="./images/client2.jpg" class="client-image" alt="Client 2">
+              <div>
+      
+                <p>Email: client2@example.com</p>
+                <p>Role: CFO</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="client-box">
+              <img src="./images/client3.jpg" class="client-image" alt="Client 3">
+              <div>
+      
+                <p>Email: client3@example.com</p>
+                <p>Role: CFO</p>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="client-box">
+              <img src="./images/client4.jpg" class="client-image" alt="Client 4">
+              <div>
+      
+                <p>Email: client4@example.com</p>
+                <p>Role: Team Leader</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <!-- Left Container: Client Inbox -->
+          <div class="col-lg-6 col-md-12">
+            <div class="client-inbox">
+             <div class="inbox">
+              <h4>Inbox</h4>
+              <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+              <!-- First Client -->
+             </div>
+              <div class="client">
+                <img src="./images/client3.jpg" class="client-image" alt="Client 1">
+                <div>
+                  <div class="inbox">
+                    <h5>Client 1</h5>
+                  <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+                  </div>
+                  <p>Email: client1@example.org</p>
+                </div>
+              </div>
+              <!-- Second Client -->
+              <div class="client">
+                <img src="./images/client3.jpg" class="client-image" alt="Client 2">
+                <div>
+                  <div class="inbox">
+                    <h5>Client 2</h5>
+                  <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i>
+                  </div>
+                  <p>Email: client2@example.org</p>
+                </div>
+              </div>
+              
+              
+              <div class="client">
+                <img src="./images/client3.jpg" class="client-image" alt="Client 2">
+                <div>
+                  <div class="inbox">
+                    <h5>Client 4</h5>
+                  <i  style="color: white;" class="fa-solid fa-ellipsis-vertical"></i> 
+                  </div>
+                  <p>Email: client2@example.org</p>
+                </div>
+              </div>
+
+           
+            </div>
+          </div>
+          
+          <!-- Right Container: Latest Projects -->
+          <div class="col-lg-6 col-md-12">
+            <div class="latest-projects">
+              <h4>Latest Projects</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Project Name</th>
+                    <th>Start Date</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                    <th>Assign</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Adminto Admin v1</td>
+                    <td>01/01/2017</td>
+                    <td>26/04/2017</td>
+                    <td class="bg-danger rounded-pill" >Released</td>
+                    <td>Coderthemes</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Adminto Frontend v1</td>
+                    <td>01/01/2017</td>
+                    <td>26/04/2017</td>
+                    <td class="bg-success rounded-pill" >Released</td>
+                    <td>Adminto Admin</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Adminto Admin v1.1</td>
+                    <td>01/05/2017</td>
+                    <td>10/05/2017</td>
+                    <td class="bg-warning rounded-pill">Pending</td>
+                    <td>Coderthemes</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Adminto Frontend v1.1</td>
+                    <td>01/01/2017</td>
+                    <td>31/05/2017</td>
+                    <td class="bg-primary rounded-pill">Work in Progress</td>
+                    <td>Adminto Admin</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Adminto Admin v1.3</td>
+                    <td>01/01/2017</td>
+                    <td>31/05/2017</td>
+                    <td class="bg-danger rounded-pill" >Coming soon</td>
+                    <td>Coderthemes</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Adminto Admin v1.3</td>
+                    <td>01/01/2017</td>
+                    <td>31/05/2017</td>
+                    <td class="bg-info rounded-pill" style="width: 100px; height: 10px;">Coming soon</td>
+                    <td>Adminto Admin</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<div class="container">
+        <div class="row">
+          
+          <div class="col-md-4">
+            <div class="grid-box01">
+              <h4>Basic Plan</h4>
+              <div class="price">$19  <br>per month</div>
+              <p>5 projects</p>
+              <p>1GB storage</p>
+              <p>No domain</p>
+              <p>1 user</p>
+              <p>24/7 support</p>
+              <a href="#" class="button">Sign Up Now</a>
+            </div>
+          </div>
+    
+   
+          <div class="col-md-4">
+            <div class="grid-box01">
+              <h4>Premium Plan</h4>
+              <div class="price">$49 <br> per month</div>
+              <p>10 projects</p>
+              <p>5GB storage</p>
+              <p>1 domain</p>
+              <p>5 users</p>
+              <p>24/7 support</p>
+              <a href="#" class="button">Sign Up Now</a>
+            </div>
+          </div>
+    
+        
+          <div class="col-md-4">
+            <div class="grid-box01">
+              <h4>Pro Plan</h4>
+              <div class="price">$99 <br> per month</div>
+              <p>Unlimited projects</p>
+              <p>20GB storage</p>
+              <p>2 domains</p>
+              <p>10 users</p>
+              <p>24/7 support</p>
+              <a href="#" class="button">Sign Up Now</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="grid-box01">
+              <h4>Basic Plan</h4>
+              <div class="price">$19  <br>per month</div>
+              <p>5 projects</p>
+              <p>1GB storage</p>
+              <p>No domain</p>
+              <p>1 user</p>
+              <p>24/7 support</p>
+              <a href="#" class="button">Sign Up Now</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="grid-box01">
+              <h4>Basic Plan</h4>
+              <div class="price">$19 <br> per month</div>
+              <p>5 projects</p>
+              <p>1GB storage</p>
+              <p>No domain</p>
+              <p>1 user</p>
+              <p>24/7 support</p>
+              <a href="#" class="button">Sign Up Now</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="grid-box01">
+              <h4>Basic Plan</h4>
+              <div class="price">$19  <br> per month</div>
+              <p>5 projects</p>
+              <p>1GB storage</p>
+              <p>No domain</p>
+              <p>1 user</p>
+              <p>24/7 support</p>
+              <a href="#" class="button">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
