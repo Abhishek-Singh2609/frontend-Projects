@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PassX-Personal Password Manager Tool</title>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>We're thrilled to have you here and take pride in safeguarding your digital world. Your security is our top priority, and we're here to make sure you can manage your passwords with ease, confidence, and peace of mind.</p>
+        <h2>Your Passwords</h2>
+        <table>
+            <tr>
+              <th>Website</th>
+              <th>Username</th>
+              <th>Password</th>
+              <th>Delete</th>
+            </tr>
+            <tr>
+              <td>Abhi</td>
+              <td>abhishek@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Harry</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Harry</td>
+              <td>100</td>
+            </tr>
+          </table>
+          
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+        
+            
+            <!-- Submit button -->
+           <button class="btn" type="submit" >Submit</button>
+          </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
